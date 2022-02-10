@@ -1,0 +1,59 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to left top, #357aff, #121212);
+}
+
+h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+span {
+  margin: 12px 0;
+  color: #fff;
+}
+
+.area-input {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area-input input {
+  width: 100%;
+  margin-bottom: 12px;
+  height: 46px;
+  background: #f2f2f2;
+  color: #121212;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.area-input button {
+  width: 100%;
+  height: 46px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #357aff;
+  color: #fff;
+  font-size: 18px;
+}
+
+.area-input button:hover {
+  background: #353aff;
+  transition: 0.4s;
+}
+
+h2 {
+  margin-top: 28px;
+  color: #f2f2f2;
+}
